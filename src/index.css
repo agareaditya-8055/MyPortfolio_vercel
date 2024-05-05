@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dark {
+  background-color: #191825;
+}
+
+.light {
+  background-color: #faf3f0;
+}
+
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-size: 10px;
+}
+
+.app-container {
+}
